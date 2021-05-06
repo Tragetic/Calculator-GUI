@@ -1,0 +1,32 @@
+[[package]]
+category = "main"
+description = "A port of PySimpleGUI that runs in a web browser.  Utilizes Remi as the GUI framework"
+name = "pysimpleguiweb"
+optional = false
+python-versions = "*"
+version = "0.39.0"
+
+[package.dependencies]
+remi = "<=2020.3.10"
+
+[[package]]
+category = "main"
+description = "Python REMote Interface library"
+name = "remi"
+optional = false
+python-versions = "*"
+version = "2020.3.10"
+
+[metadata]
+content-hash = "b215e63317334f750fb5dae6207999b27da330215dde166e07d2ae1812d6c708"
+python-versions = "^3.8"
+
+[metadata.files]
+pysimpleguiweb = [
+    {file = "PySimpleGUIWeb-0.39.0-py3-none-any.whl", hash = "sha256:b9ed4667105a182b7121c1f2106af3eefc49ef4e1ca55555ba588ab3ba517419"},
+    {file = "PySimpleGUIWeb-0.39.0.tar.gz", hash = "sha256:bf678836226fc8450c965fb209bfb04809bbf6275139aa5a71808b07a3fa32c5"},
+]
+remi = [
+    {file = "remi-2020.3.10-py3-none-any.whl", hash = "sha256:73e833090298b446dcb4269ce9ab8078a080db235b4d33674a481c88cb4af1cc"},
+    {file = "remi-2020.3.10.tar.gz", hash = "sha256:4cb8eee398502f547b1ea5cf19304ce46bdc537a29b79066fda3e5d05130fdc4"},
+]
